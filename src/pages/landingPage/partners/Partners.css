@@ -1,0 +1,56 @@
+.partners {
+  color: #fff;
+  /* height: 600px; */
+  background-color: #0f0d1d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.partners-container-text {
+  text-align: center;
+}
+
+.partners .partners-container-text p {
+  color: #726f84;
+  margin: 20px 0;
+}
+
+.partners-card {
+  display: flex;
+  gap: 20px;
+}
+
+.partners-meet {
+  text-align: center;
+  font-weight: 600;
+}
+
+.partners-meet p {
+  margin-top: 30px;
+}
+
+.partners-meet .arrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.partners-meet .arrow img {
+  border: 1px solid #3c72fc;
+  padding: 10px;
+}
+
+@media all and (max-width: 768px) {
+  .partners-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners-meet .arrow {
+    /* display: none; */
+    margin: 30px 10px;
+  }
+}
