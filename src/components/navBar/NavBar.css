@@ -1,0 +1,57 @@
+.nav-bar {
+  background-color: #474747;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-logo h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-line {
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+
+  /* border: 2px solid green; */
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-icon img {
+  width: 1.25rem;
+  margin-right: 10px;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-search .search {
+  width: 1.25rem;
+  cursor: pointer;
+}
+
+.nav-help p {
+  color: #fff;
+}
