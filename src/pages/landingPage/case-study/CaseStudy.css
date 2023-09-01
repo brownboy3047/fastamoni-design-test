@@ -90,6 +90,9 @@
   padding: 20px;
   width: 400px;
   background-color: #fff;
+
+  box-shadow: 19px 10px 30px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .case-study-card p {
