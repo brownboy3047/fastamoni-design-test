@@ -1,6 +1,6 @@
 //assets
 import circle from "../../../assets/check-circle.png";
-import short from "../../../assets/line-22.png";
+import short from "../../../assets/short.png";
 //style
 import "./Growth.css";
 
