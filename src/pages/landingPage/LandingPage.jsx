@@ -1,4 +1,5 @@
 import CaseStudy from "./case-study/CaseStudy";
+import Consulting from "./consulting/Consulting";
 import QuestionAnswer from "./faq/QuestionAnswer";
 import Hero from "./hero/Hero";
 import Mission from "./mission/Mission";
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Mission />
       <QuestionAnswer />
       <Testimonial />
+      <Consulting />
     </main>
   );
 };

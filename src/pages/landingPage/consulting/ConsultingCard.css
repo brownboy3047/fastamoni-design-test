@@ -1,0 +1,18 @@
+.consult-card {
+  text-align: center;
+}
+
+.consult-card img {
+  background-color: #06050c;
+  padding: 20px;
+}
+
+.consult-card p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.consult-card span {
+  font-size: 12px;
+  font-weight: 600;
+}
