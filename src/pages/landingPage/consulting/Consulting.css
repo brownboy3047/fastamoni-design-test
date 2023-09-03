@@ -1,3 +1,7 @@
+.consulting-container {
+  position: relative;
+}
+
 .consulting {
   background-color: #07122dfa;
   color: #fff;
@@ -8,6 +12,29 @@
   justify-content: space-evenly;
 }
 
+.consulting-growth {
+  display: flex;
+  position: absolute;
+
+  left: 180px;
+  bottom: -30px;
+  box-shadow: 10px 10px 8px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 9px -3px rgba(0, 0, 0, 0.1);
+}
+
+.consulting-growth-card {
+  padding: 25px;
+  width: 300px;
+  background-color: #fff;
+
+  box-shadow: 19px 10px 30px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.consulting-growth-card:hover {
+  color: #3c72fc;
+}
+
 @media all and (max-width: 768px) {
   .consulting {
     display: flex;
@@ -16,6 +43,10 @@
   }
 
   .consulting .image {
+    display: none;
+  }
+
+  .consulting-growth {
     display: none;
   }
 }
